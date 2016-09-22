@@ -4,4 +4,5 @@ setup(
     name='phosphor-rest-dbus',
     version='1.0',
     py_modules=['obmc.wsgi.apps.rest_dbus'],
+    packages=['obmc.wsgi.apps.multi_wsgi'],
     )
